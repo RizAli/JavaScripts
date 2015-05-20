@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/main.css">
-  <title>JavaScript Basics</title>
- </head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+
+  <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
+  <title>The Story Maker</title>
+</head>
 <body>
-  <div class="container">
-  <h1>Where to place your JAvaScript code.</h1>
-  </div>
-  <script src="scripts.js"></script>
+    <div class="container">
+      <h1> The Story Maker </h1>
+      <!-- start form  -->
+      <form id="my-form" role="form">
+        <input id="my-input" class="form-control" type="text" placeholder="Enter something....">
+        <br>
+      </form>
+        <!-- http://getbootstrap.com/css/#buttons -->
+        <button type="submit" id="btn-click" class="btn btn-success">My BIG Button</button>
+      <!-- end form -->
+    </div>
+
+    <p class="results"></p>
+
+
+    <!-- ref: https://jquery.com/download/ -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- http://www.bootstrapcdn.com/ -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="js/story.js"></script>
 </body>
 </html>
 
+
+
+
+
+<!-- <div>
+      <h1> A review of different parts of speech </h1>
+      <ol>
+        <li>A noun is the name of a person, place or a thing. Examples include umbrella, sidewalk and car.</li>
+        <li>An adjective describes someone or something. Examples include creative, red, ugly and short.</li>
+        <li>A verb is an action word. Examples include run, jump, swim, fly.</li>
+        <li>An adverb tells how something is done. Examples include greedily, rapidly and carefully.</li>
+      </ol>
+    </div> -->

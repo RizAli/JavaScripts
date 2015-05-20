@@ -1,0 +1,77 @@
+Variables in Javascripts.
+-------------------------
+
+Assign a variable without value
+var score;
+
+Assign variable with a value
+var score = 0;
+
+Reserved keywords
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords
+
+Valid variable names, Use camel case
+letters numbers $ _
+
+
+Capturing Visitor Input:
+------------------------
+
+var visitorName = prompt('What is your name?');
+alert(visitorName);
+
+Objects:
+--------
+
+1. We often work with objects when we program in javascript
+such as string, the document, the browser's console.
+
+2. Objects have properties which are kind of variables for an object
+they hold the information about an object like the length of string.
+
+3. Objects have methods, which are action the object can perform
+such as
+string.toUpperCase()
+string.toLowerCase()
+
+
+Create a story-telling program:
+---------------------------------
+
+1. Use the prompt() command several times to collect different types of words -- nouns, verbs, adjectives.
+2. Store the result of each prompt() command in a different variable.
+3. Combine the variables with other strings to create one or more non-sensical statements.
+4. Print the resulting story to the browser using the document.write() command.
+
+similar to children Madlib game.
+
+1. create a variable and capture input.
+2. create a separate variable for each piece of input.
+3. Add an alert to tell the user that they have finished.
+4. Combine the input with other strings to create a message.
+5. print the story to the browser window.
+
+
+
+Content:
+create a folder structure
+
+folder structure
+
+
+
+What is jQuery?
+JQuery is lightweight, "write less, do more", JavaScript library.
+The purpose of jquery is to make it much easier to use JavaScript on your website.
+JQuery is a fast, small and feature-rich JavaScript library.
+
+
+
+
+
+
+
+
+
+
+
