@@ -9,26 +9,61 @@
   <title>The Story Maker</title>
 </head>
 <body>
-    <div class="container">
-      <h1> The Story Maker </h1>
-      <!-- start form  -->
-      <form id="my-form" role="form">
-        <input id="my-input" class="form-control" type="text" placeholder="Enter something....">
-        <br>
+  <div class="container">
+    <h1> The Story Maker </h1>
+
+    <!-- start form -->
+    <div id="questions">
+      <h1>Please fill out the following!</h1>
+      <hr>
+      <form role="form">
+        <div class="form-group">
+          <label for="person">Boy's Name</label>
+          <input id="person" class="form-control person" type="text" placeholder="Enter boy's name ...">
+        </div>
+
+        <div class="form-group">
+          <label for="adjective"> Adjective </label>
+          <input id="adjective" class="form-control adjective" type="text" placeholder="Enter an adjective ...">
+        </div>
+
+        <div class="form-group">
+          <label for="noun"> Plural noun </label>
+          <input id="noun" class="form-control noun" type="text" placeholder="Enter a plural noun ...">
+        </div>
+
+        <div class="form-group">
+          <label for="insect">An insect, plural</label>
+          <input id="insect" class="form-control insect" type="text" placeholder="Enter an insect, plural ...">
+        </div>
+
+        <div class="form-group">
+          <label for="noun2">Plural noun</label>
+          <input id="noun2" class="form-control plural-noun" type="text" placeholder="Enter a plural noun ...">
+        </div>
+
+        <div class="form-group">
+          <label for "verb"> A verb ending in 's' </label>
+          <input tid="verb" class="form-control verb" type="text" placeholder="Enter a word ending in 's' ...">
+        </div>
       </form>
-        <!-- http://getbootstrap.com/css/#buttons -->
-        <button type="submit" id="btn-click" class="btn btn-success">My BIG Button</button>
-      <!-- end form -->
-    </div>
+      <!-- http://getbootstrap.com/css/#buttons -->
+      <button type="submit" id="btn-click" class="btn btn-success"> Generate!</button>
+      <hr>
+  </div>
+  <!-- start story -->
+  <div id="story">
+    <h1> Mad with Libs </h1>
+    <hr>
+    <h3>I'm in love with <span class="person"></span>
+  </div>
 
-    <p class="results"></p>
-
-
-    <!-- ref: https://jquery.com/download/ -->
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <!-- http://www.bootstrapcdn.com/ -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <script src="js/story.js"></script>
+  <!-- scripts  -->
+  <!-- ref: https://jquery.com/download/ -->
+  <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- http://www.bootstrapcdn.com/ -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script src="js/story.js"></script>
 </body>
 </html>
 
@@ -45,3 +80,11 @@
         <li>An adverb tells how something is done. Examples include greedily, rapidly and carefully.</li>
       </ol>
     </div> -->
+
+
+
+
+
+
+
+

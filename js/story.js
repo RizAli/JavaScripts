@@ -1,6 +1,7 @@
 $(function() {
   console.log("Whee!")
 
+
 // $ dollar sign in the button click is a jquery constructor, it tells the browser that the
 // code within the paranthesis is jQuery.
 
@@ -20,10 +21,11 @@ $(function() {
 
 // DOM Document Object Model
 
-  // event handler
-$("#btn-click").click(function(e) {
-  var input = $("input").val()
-  console.log(input)
-  $(".results").empty().append(input);
+  // event handler (line 1)
+  // grab the values from the input boxes, then append them to the DOM (line 2)
+
+  $("#btn-click").click(function(){
+    $(".person").empty().append($("input.person").val());
   });
+
 });
