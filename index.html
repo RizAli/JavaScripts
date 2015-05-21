@@ -10,11 +10,11 @@
 </head>
 <body>
   <div class="container">
-    <h1> The Story Maker </h1>
+    <h2> The Story Maker </h2>
 
     <!-- start form -->
     <div id="questions">
-      <h1>Please fill out the following!</h1>
+      <h4>Please fill out the following!</h4>
       <hr>
       <form role="form">
         <div class="form-group">
@@ -48,16 +48,37 @@
         </div>
       </form>
       <!-- http://getbootstrap.com/css/#buttons -->
-      <button type="submit" id="btn-click" class="btn btn-success"> Generate!</button>
+      <div>
+        <button type="submit" id="btn-click" class="btn btn-success"> Generate!</button>
+      </div>
       <hr>
   </div>
+  <!-- end form -->
+
+
+  <div class="review-grammar">
+    <h3> A review of different parts of speech </h3>
+    <ol>
+      <li>A noun is the name of a person, place or a thing. Examples include umbrella, sidewalk and car.</li>
+      <li>An adjective describes someone or something. Examples include creative, red, ugly and short.</li>
+      <li>A verb is an action word. Examples include run, jump, swim, fly.</li>
+      <li>An adverb tells how something is done. Examples include greedily, rapidly and carefully.</li>
+    </ol>
+  </div>
+
+
   <!-- start story -->
   <div id="story">
     <h1> Mad with Libs </h1>
     <hr>
-    <h3>I'm in love with <span class="person"></span>
-  </div>
+    <h3>I'm in love with <span class="person"></span>. He's so <span class="adjective"></span>! He has big flat <span class="noun"></span>, and when our <span class="insect"></span> meet, I get <span class= "noun2"></span> in my stomach. I've fallen for him like a ton of <span class="verb"></span>, and he shuffles for me, too. But I think he's got another girlfriend. What should I do?</h3>
 
+    <div>
+      <button type="submit" id="btn-replay" class="btn btn-success"> Replay </button>
+    </div>
+
+  </div>
+  <!-- end story -->
   <!-- scripts  -->
   <!-- ref: https://jquery.com/download/ -->
   <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>

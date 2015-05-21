@@ -1,5 +1,39 @@
 $(function() {
-  console.log("Whee!")
+  // hide the story from the view
+  $("#story").hide();
+
+  // event handler
+  $("#btn-click").click(function(e){
+
+    // grab the values from input box then append in Domain object model (DOM)
+    $(".person").empty().append($("input.person").val());
+    $(".adjective").empty().append($("input.adjective").val());
+    $(".noun").empty().append($("input.noun").val());
+    $(".insect").empty().append($("input.insect").val());
+    $(".noun2").empty().append($("input.plural-noun").val());
+    $(".verb").empty().append($("input.verb").val());
+
+
+    // show the story
+    $("#story").show();
+
+    $(".review-grammar").hide();
+
+    // empty the form's values
+    $(':input').val('');
+
+    // hide the questions
+    $("#questions").hide();
+  });
+
+  $("#btn-replay").click(function(e){
+    $("#questions").show();
+    $("#story").hide();
+  });
+
+
+
+});
 
 
 // $ dollar sign in the button click is a jquery constructor, it tells the browser that the
@@ -23,9 +57,3 @@ $(function() {
 
   // event handler (line 1)
   // grab the values from the input boxes, then append them to the DOM (line 2)
-
-  $("#btn-click").click(function(){
-    $(".person").empty().append($("input.person").val());
-  });
-
-});
