@@ -6,7 +6,7 @@ Mad Libs homepage
 
 ![alt tag](https://raw.githubusercontent.com/RizAli/JavaScripts/master/images/Mad_lib_home.png)
 
-When user clicks on the Generate user is directed to the following page.
+### When user clicks on the "Generate" button, user is directed to the following page.
 
 ![alt tag](https://raw.githubusercontent.com/RizAli/JavaScripts/master/images/Mad_Lib_replay.png)
 
